@@ -4,6 +4,7 @@
 import omitBy from 'lodash/omitBy';
 
 const DEFAULT_USERS_QUERY = {
+  _embed: true,
 	number: 10,
 	offset: 0,
   role: 'Subscriber',
